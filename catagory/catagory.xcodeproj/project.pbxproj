@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		F27E9ADD1D59B7CC00BD0F5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9ADC1D59B7CC00BD0F5E /* main.m */; };
 		F27E9AE01D59B7CC00BD0F5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9ADF1D59B7CC00BD0F5E /* AppDelegate.m */; };
-		F27E9AE31D59B7CC00BD0F5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9AE21D59B7CC00BD0F5E /* ViewController.m */; };
-		F27E9AE61D59B7CC00BD0F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27E9AE41D59B7CC00BD0F5E /* Main.storyboard */; };
 		F27E9AE81D59B7CC00BD0F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27E9AE71D59B7CC00BD0F5E /* Assets.xcassets */; };
 		F27E9AEB1D59B7CC00BD0F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27E9AE91D59B7CC00BD0F5E /* LaunchScreen.storyboard */; };
 		F27E9AF61D59B7CC00BD0F5E /* catagoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9AF51D59B7CC00BD0F5E /* catagoryTests.m */; };
 		F27E9B011D59B7CC00BD0F5E /* catagoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9B001D59B7CC00BD0F5E /* catagoryUITests.m */; };
+		F27E9B1E1D59C1C200BD0F5E /* HUAlertTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9B131D59C1C200BD0F5E /* HUAlertTitleView.m */; };
+		F27E9B1F1D59C1C200BD0F5E /* HUVersionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9B151D59C1C200BD0F5E /* HUVersionTool.m */; };
+		F27E9B201D59C1C200BD0F5E /* MXPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9B171D59C1C200BD0F5E /* MXPlaceholder.m */; };
+		F27E9B211D59C1C200BD0F5E /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9B191D59C1C200BD0F5E /* NSString+Emoji.m */; };
+		F27E9B221D59C1C200BD0F5E /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9B1B1D59C1C200BD0F5E /* UIColor+Extension.m */; };
+		F27E9B231D59C1C200BD0F5E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9B1D1D59C1C200BD0F5E /* UIView+Extension.m */; };
+		F27E9B261D59C1FC00BD0F5E /* MXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27E9B251D59C1FC00BD0F5E /* MXTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +44,6 @@
 		F27E9ADC1D59B7CC00BD0F5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F27E9ADE1D59B7CC00BD0F5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F27E9ADF1D59B7CC00BD0F5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F27E9AE11D59B7CC00BD0F5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F27E9AE21D59B7CC00BD0F5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F27E9AE51D59B7CC00BD0F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F27E9AE71D59B7CC00BD0F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F27E9AEA1D59B7CC00BD0F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F27E9AEC1D59B7CC00BD0F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,21 @@
 		F27E9AFC1D59B7CC00BD0F5E /* catagoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catagoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27E9B001D59B7CC00BD0F5E /* catagoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = catagoryUITests.m; sourceTree = "<group>"; };
 		F27E9B021D59B7CC00BD0F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27E9B0E1D59B89B00BD0F5E /* catagory.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = catagory.pch; sourceTree = "<group>"; };
+		F27E9B121D59C1C200BD0F5E /* HUAlertTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUAlertTitleView.h; sourceTree = "<group>"; };
+		F27E9B131D59C1C200BD0F5E /* HUAlertTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUAlertTitleView.m; sourceTree = "<group>"; };
+		F27E9B141D59C1C200BD0F5E /* HUVersionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUVersionTool.h; sourceTree = "<group>"; };
+		F27E9B151D59C1C200BD0F5E /* HUVersionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUVersionTool.m; sourceTree = "<group>"; };
+		F27E9B161D59C1C200BD0F5E /* MXPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPlaceholder.h; sourceTree = "<group>"; };
+		F27E9B171D59C1C200BD0F5E /* MXPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPlaceholder.m; sourceTree = "<group>"; };
+		F27E9B181D59C1C200BD0F5E /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		F27E9B191D59C1C200BD0F5E /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		F27E9B1A1D59C1C200BD0F5E /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		F27E9B1B1D59C1C200BD0F5E /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		F27E9B1C1D59C1C200BD0F5E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F27E9B1D1D59C1C200BD0F5E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F27E9B241D59C1FC00BD0F5E /* MXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTableViewController.h; sourceTree = "<group>"; };
+		F27E9B251D59C1FC00BD0F5E /* MXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +118,22 @@
 		F27E9ADA1D59B7CC00BD0F5E /* catagory */ = {
 			isa = PBXGroup;
 			children = (
+				F27E9B121D59C1C200BD0F5E /* HUAlertTitleView.h */,
+				F27E9B131D59C1C200BD0F5E /* HUAlertTitleView.m */,
+				F27E9B141D59C1C200BD0F5E /* HUVersionTool.h */,
+				F27E9B151D59C1C200BD0F5E /* HUVersionTool.m */,
+				F27E9B161D59C1C200BD0F5E /* MXPlaceholder.h */,
+				F27E9B171D59C1C200BD0F5E /* MXPlaceholder.m */,
+				F27E9B181D59C1C200BD0F5E /* NSString+Emoji.h */,
+				F27E9B191D59C1C200BD0F5E /* NSString+Emoji.m */,
+				F27E9B1A1D59C1C200BD0F5E /* UIColor+Extension.h */,
+				F27E9B1B1D59C1C200BD0F5E /* UIColor+Extension.m */,
+				F27E9B1C1D59C1C200BD0F5E /* UIView+Extension.h */,
+				F27E9B1D1D59C1C200BD0F5E /* UIView+Extension.m */,
 				F27E9ADE1D59B7CC00BD0F5E /* AppDelegate.h */,
 				F27E9ADF1D59B7CC00BD0F5E /* AppDelegate.m */,
-				F27E9AE11D59B7CC00BD0F5E /* ViewController.h */,
-				F27E9AE21D59B7CC00BD0F5E /* ViewController.m */,
-				F27E9AE41D59B7CC00BD0F5E /* Main.storyboard */,
+				F27E9B241D59C1FC00BD0F5E /* MXTableViewController.h */,
+				F27E9B251D59C1FC00BD0F5E /* MXTableViewController.m */,
 				F27E9AE71D59B7CC00BD0F5E /* Assets.xcassets */,
 				F27E9AE91D59B7CC00BD0F5E /* LaunchScreen.storyboard */,
 				F27E9AEC1D59B7CC00BD0F5E /* Info.plist */,
@@ -118,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				F27E9ADC1D59B7CC00BD0F5E /* main.m */,
+				F27E9B0E1D59B89B00BD0F5E /* catagory.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,6 +231,7 @@
 		F27E9AD01D59B7CC00BD0F5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MX;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "郭利辉";
 				TargetAttributes = {
@@ -248,7 +278,6 @@
 			files = (
 				F27E9AEB1D59B7CC00BD0F5E /* LaunchScreen.storyboard in Resources */,
 				F27E9AE81D59B7CC00BD0F5E /* Assets.xcassets in Resources */,
-				F27E9AE61D59B7CC00BD0F5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F27E9AE31D59B7CC00BD0F5E /* ViewController.m in Sources */,
+				F27E9B211D59C1C200BD0F5E /* NSString+Emoji.m in Sources */,
 				F27E9AE01D59B7CC00BD0F5E /* AppDelegate.m in Sources */,
+				F27E9B261D59C1FC00BD0F5E /* MXTableViewController.m in Sources */,
+				F27E9B201D59C1C200BD0F5E /* MXPlaceholder.m in Sources */,
+				F27E9B221D59C1C200BD0F5E /* UIColor+Extension.m in Sources */,
 				F27E9ADD1D59B7CC00BD0F5E /* main.m in Sources */,
+				F27E9B1E1D59C1C200BD0F5E /* HUAlertTitleView.m in Sources */,
+				F27E9B231D59C1C200BD0F5E /* UIView+Extension.m in Sources */,
+				F27E9B1F1D59C1C200BD0F5E /* HUVersionTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +346,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F27E9AE41D59B7CC00BD0F5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F27E9AE51D59B7CC00BD0F5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F27E9AE91D59B7CC00BD0F5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/catagory/catagory.pch";
 				INFOPLIST_FILE = catagory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -428,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/catagory/catagory.pch";
 				INFOPLIST_FILE = catagory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

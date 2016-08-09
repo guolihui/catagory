@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MXTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    MXTableViewController *tab = [MXTableViewController new];
+    
+    self.window.rootViewController = tab;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
